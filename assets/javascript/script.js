@@ -18,7 +18,7 @@ var clockRunning = false;
 checkDatabase();
 
 if (!clockRunning) {
-	intervalId = setInterval(checkDatabase, 1000);
+	intervalId = setInterval(checkDatabase, 60000);
 	clockRunning = true;
 }
 
